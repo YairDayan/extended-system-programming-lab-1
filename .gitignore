@@ -1,12 +1,9 @@
-# Build artifacts
-addresses
-count-words
-*.o
-*.dSYM/
-*.out
-
-# Course materials (not source)
+# Local work / build — not part of Moodle deliverables
+*
+!task3/
+!task3/**
+!.gitignore
 *.pdf
-
-# macOS
+*.png
+*.dSYM/
 .DS_Store
