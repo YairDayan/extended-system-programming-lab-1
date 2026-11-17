@@ -84,11 +84,6 @@ int main(int argc, char **argv)
     }
     printf("Within bounds\n");
     char *new_carray = map(carray, 5, menu[choice].fun);
-    if (menu[choice].fun == my_get) {
-      int ch;
-      while ((ch = fgetc(stdin)) != '\n' && ch != EOF)
-        ;
-    }
     if (carray_allocated)
       free(carray);
     carray = new_carray;
