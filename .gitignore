@@ -1,0 +1,12 @@
+# Build artifacts
+addresses
+count-words
+*.o
+*.dSYM/
+*.out
+
+# Course materials (not source)
+*.pdf
+
+# macOS
+.DS_Store
